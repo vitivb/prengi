@@ -1,0 +1,22 @@
+.header {
+    padding-top: 20px;
+
+    .country {
+
+        &__flag {
+            width: 30px;
+            height: 20px;
+        }
+
+        &__name {
+            display: inline-block;
+            text-transform: capitalize;
+        }
+
+        &__contacts {
+            margin-top: -10px;
+            padding-left: 30px;
+            width: 220px;
+        }
+    }    
+}

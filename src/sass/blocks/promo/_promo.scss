@@ -1,0 +1,78 @@
+.promo {
+    position: relative;
+    display: block;
+    min-height: 700px;
+    padding-top: 35px;
+    background: url("../img/promo/backgound.jpg") center center/cover no-repeat;
+
+    &__menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        list-style-type: none;
+        color: #fff;
+        text-transform: uppercase;
+
+        a {
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+
+    &__title {
+        margin-top: 130px;
+        width: 555px;
+        color: #fff;
+    }
+
+    &__btn {
+        margin-top: 45px;
+    }
+
+    &__img {
+        position: absolute;
+        bottom: -20px;
+    }
+
+    &__dots {
+        display: flex;
+        width: 70px;
+        flex-direction: row;
+        justify-content: space-around;
+
+        div {
+            display: block;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            border: solid 1px #fff;
+        }
+    }
+
+    &__left,
+    &__right {
+        color: #fff;
+        margin-top: -8px;
+    }
+
+    &__left {
+        margin-right: 10px;
+    }
+
+    &__right {
+        margin-left: 10px;
+    }
+
+    .white { 
+        background-color: #fff;
+    }
+
+    &__navigation {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 50px;
+        display: flex;
+        flex-direction: row;
+    }
+}
