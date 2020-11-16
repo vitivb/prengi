@@ -1,0 +1,32 @@
+.with-us {
+    padding-top: 75px;
+
+    &__reason {
+        position: relative;
+        z-index: 1;
+        display: flex;
+        width: 360px;
+        height: 250px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: solid 1px #ececec;
+
+        .answer {
+            position: absolute;
+            z-index: -1;
+            right: 0;
+            bottom: 0;
+        }
+    }
+
+    &__arrow {
+        margin-top: 50px;
+    }
+
+    &__title {
+        margin-top: 35px;
+        margin-bottom: 35px;
+        text-transform: uppercase;
+    }
+}
