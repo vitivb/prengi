@@ -1,0 +1,23 @@
+.footer {
+    padding-top: 50px;
+    padding-bottom: 55px;
+    color: #fff;
+    background-color: #0082a1;
+
+    ul {
+        padding-left: 0;
+        list-style-type: none;
+    }
+
+    .divider {
+        display: block;
+        width: 100%;
+        height: 1px;
+        background-color:#fff;
+    }
+
+    .copy {
+        margin-top: 25px;
+        text-align: center;
+    }
+}

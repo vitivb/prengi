@@ -1,0 +1,27 @@
+.advantages {
+
+    &__title {
+        margin-bottom: 50px;
+    }
+
+    &__item {
+        position: relative;
+        display: block;
+        width: 50%;
+        height: 360px;
+    }
+
+    &__descr {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        display: flex;
+        width: 100%;
+        height: 150px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #fff;
+        background-color: rgba(0, 0, 0, .3);
+    }
+}

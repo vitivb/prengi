@@ -1,0 +1,56 @@
+.variants {
+    position: relative;
+    padding-top: 80px;
+    color: #fff;
+
+    &__title {
+        position: absolute;
+        z-index: 2;
+        top: 160px;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+    }
+
+    &__subtitle {
+        text-transform: uppercase;
+    }
+
+    &-1 {
+        position: relative;
+        z-index: 1;
+        width: 50%;
+        height: 580px;
+        display: flex;
+        flex-direction: column;
+        padding-right: 85px;
+        justify-content: center;
+        align-items: flex-end;
+        text-align: right;
+        background: url("../img/variants/cloud.jpg") center center/cover no-repeat;
+
+        .square {
+            @include square;
+            right: 50px;
+        }
+    }
+
+    &-2 {
+        position: relative;
+        z-index: 1;
+        width: 50%;
+        height: 580px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 85px;
+        align-items: flex-start;
+        text-align-last: left;
+        background: url("../img/variants/server.jpg") center center/cover no-repeat; 
+
+        .square {
+            @include square;
+            left: 50px;
+        }
+    }
+}

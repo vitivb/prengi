@@ -1,6 +1,7 @@
 @import "libs/bootstrap-reboot";
 @import "libs/bootstrap-grid";
 @import "base/variables";
+@import "base/mixins";
 
 * {
     font-family: 'Roboto', sans-serif;
@@ -10,6 +11,10 @@ p {
     padding-bottom: 0;
 }
 
+// .row {
+//     margin-right: 0;
+// }
+
 @import "blocks/text/title";
 @import "blocks/text/text";
 @import "blocks/header/header";
@@ -17,3 +22,7 @@ p {
 @import "blocks/buttons/buttons";
 @import "blocks/with_us/with_us";
 @import "blocks/solutions/solutions";
+@import "blocks/advantages/advantages";
+@import "blocks/variants/variants";
+@import "blocks/contact_us/contact_us";
+@import "blocks/footer/footer";
