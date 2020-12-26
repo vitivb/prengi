@@ -1,12 +1,16 @@
-.contact-us {
+.contact_us {
+
     padding-top: 80px;
 
     &__title {
+        
         margin-top: 80px;
         text-align: center;
+        font-weight: bold;
     }
 
-    &-btn {
+    &__btn {
+
         margin: 80px 0;
         text-transform: uppercase;
     }

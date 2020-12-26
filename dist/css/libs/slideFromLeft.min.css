@@ -1,0 +1,1 @@
+@-webkit-keyframes slideIntoLeft{from{margin-left:-200%}to{margin-left:0}}@keyframes slideIntoLeft{from{margin-left:-200%}to{margin-left:0}}.animate_slideIntoLeft{-webkit-animation:slideIntoLeft .7s linear 1;animation:slideIntoLeft .7s linear 1}

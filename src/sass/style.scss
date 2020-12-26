@@ -1,5 +1,4 @@
 @import "libs/bootstrap-reboot";
-@import "libs/bootstrap-grid";
 @import "base/variables";
 @import "base/mixins";
 
@@ -7,13 +6,88 @@
     font-family: 'Roboto', sans-serif;
 }
 
-p {
-    padding-bottom: 0;
+body {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+
+section {
+
+    display: flex;
+    flex-basis: 100%;
+    min-height: max-content;
+    justify-content: center;
 }
 
-// .row {
-//     margin-right: 0;
-// }
+ul {
+
+    padding: 0;
+}
+
+.container {
+
+    display: flex;
+    flex-basis: 1140px;
+    flex-direction: column;
+}
+
+.line-around {
+
+    display: flex;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+
+.line-between {
+
+    display: flex;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.line-start {
+
+    display: flex;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.line-end {
+
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.line-center {
+
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.block {
+
+    display: inline-block;
+    margin: 0 auto;
+}
+
+p {
+    padding: 0 5px;
+}
+
+.noScroll {
+
+    overflow : hidden;
+}
 
 @import "blocks/text/title";
 @import "blocks/text/text";
@@ -26,3 +100,4 @@ p {
 @import "blocks/variants/variants";
 @import "blocks/contact_us/contact_us";
 @import "blocks/footer/footer";
+@import "blocks/media";

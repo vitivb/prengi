@@ -1,6 +1,9 @@
 .advantages {
 
+    padding: 0px 5px 50px 5px;
+
     &__title {
+
         margin-bottom: 50px;
     }
 
@@ -9,6 +12,30 @@
         display: block;
         width: 50%;
         height: 360px;
+    }
+
+    .first {
+        background: url("../img/advantages/clock.jpg") center center/cover no-repeat;
+    }
+
+    .second {
+        background: url("../img/advantages/robohand.jpg") center center/cover no-repeat;
+    }
+
+    .third{
+        background: url("../img/advantages/globus.jpg") center center/cover no-repeat;
+    }
+
+    .fourth {
+        background: url("../img/advantages/phone.jpg") center center/cover no-repeat;
+    }
+
+    .fifth {
+        background: url("../img/advantages/jacket.jpg") center center/cover no-repeat;
+    }
+
+    .sixth {
+        background: url("../img/advantages/card.jpg") center center/cover no-repeat;
     }
 
     &__descr {
@@ -20,8 +47,15 @@
         height: 150px;
         justify-content: center;
         align-items: center;
+        font-size: 23px;
         text-align: center;
         color: #fff;
         background-color: rgba(0, 0, 0, .3);
+    }
+
+    .block {
+
+        display: inline-flex;
+        flex-grow: 1;
     }
 }

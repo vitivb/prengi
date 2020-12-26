@@ -1,0 +1,44 @@
+@media (max-width: 1200px) {
+
+    .container {
+
+        flex-basis: 960px; 
+    }
+}
+
+@media (max-width: 992px) {
+
+    .container {
+
+        flex-basis: 720px; 
+    }
+
+    .line-center {
+
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .container {
+
+        flex-basis: 540px; 
+    }
+}
+
+@media (max-width: 576px) {
+
+    .container {
+
+        flex-basis: unset;
+        width: 100%; 
+    }
+}
+
+@import "header/media";
+@import "promo/media";
+@import "with_us/media";
+@import "solutions/media";
+@import "advantages/media";
+@import "variants/media";
